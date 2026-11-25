@@ -40,7 +40,7 @@ Requirements are Python 3.11, [uv](https://docs.astral.sh/uv/), Git, and a suppo
 
 ```powershell
 git clone https://github.com/Qorq-byte/RAG-desktop.git
-cd RAG_db_test
+cd RAG-desktop
 uv sync --frozen
 Copy-Item config.example.toml config.toml
 uv run ragdb doctor
@@ -86,4 +86,5 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request. Co
 ## License
 
 RAGDB is released under the [MIT License](LICENSE).
+
 

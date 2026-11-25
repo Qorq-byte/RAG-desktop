@@ -40,7 +40,7 @@ RAGDB 使用 Python 和 PySide6 构建，桌面端和 CLI 共用同一套核心�
 
 ```powershell
 git clone https://github.com/Qorq-byte/RAG-desktop.git
-cd RAG_db_test
+cd RAG-desktop
 uv sync --frozen
 Copy-Item config.example.toml config.toml
 uv run ragdb doctor
@@ -86,4 +86,5 @@ uv run python -m compileall -q src tests
 ## 许可证
 
 RAGDB 使用 [MIT License](LICENSE) 发布。
+
 

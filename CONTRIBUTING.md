@@ -14,7 +14,7 @@ Thanks for helping improve RAGDB. Small, focused pull requests are easier to rev
 RAGDB targets Python 3.11.
 
 ```powershell
-git clone https://github.com/Qorq-byte/RAG_db_test.git
+git clone https://github.com/Qorq-byte/RAG-desktop.git
 cd RAG_db_test
 uv sync --frozen
 Copy-Item config.example.toml config.toml
@@ -48,3 +48,4 @@ If a check requires Ollama, Supabase, a cloud provider, or Windows GUI behavior,
 A pull request should include the problem, the resulting behavior, tests run, and any external dependency that could not be verified. Keep unrelated formatting and generated files out of the change. Maintainers may ask for a smaller split when a pull request covers independent concerns.
 
 By contributing, you agree that your contribution is provided under the repository's [MIT License](LICENSE).
+

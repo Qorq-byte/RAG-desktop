@@ -1,10 +1,10 @@
 # RAGDB
 
-[![Python 3.11](https://img.shields.io/badge/python-3.11-3776AB?logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3110/) [![PySide6](https://img.shields.io/badge/UI-PySide6-41CD52?logo=qt&logoColor=white)](https://doc.qt.io/qtforpython/) [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE) [![Latest release](https://img.shields.io/github/v/release/Qorq-byte/RAG_db_test?display_name=tag)](https://github.com/Qorq-byte/RAG_db_test/releases) [![Windows](https://img.shields.io/badge/platform-Windows%20x64-0078D6?logo=windows&logoColor=white)](https://github.com/Qorq-byte/RAG_db_test/releases)
+[![Python 3.11](https://img.shields.io/badge/python-3.11-3776AB?logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3110/) [![PySide6](https://img.shields.io/badge/UI-PySide6-41CD52?logo=qt&logoColor=white)](https://doc.qt.io/qtforpython/) [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE) [![Latest release](https://img.shields.io/github/v/release/Qorq-byte/RAG-desktop?display_name=tag)](https://github.com/Qorq-byte/RAG-desktop/releases) [![Windows](https://img.shields.io/badge/platform-Windows%20x64-0078D6?logo=windows&logoColor=white)](https://github.com/Qorq-byte/RAG-desktop/releases)
 
 **A local-first desktop RAG knowledge base for importing, searching, citing, and learning from your own documents.**
 
-[简体中文](README.zh-CN.md) · [User guide](docs/user-guide.md) · [Releases](https://github.com/Qorq-byte/RAG_db_test/releases) · [Project status](task_plan.md)
+[简体中文](README.zh-CN.md) · [User guide](docs/user-guide.md) · [Releases](https://github.com/Qorq-byte/RAG-desktop/releases) · [Project status](task_plan.md)
 
 RAGDB is a Python and PySide6 application with a shared desktop and CLI core. It imports local files, directories, web pages, and public GitHub repositories, then builds a hybrid vector and keyword index. You can inspect source passages, ask evidence-bound questions, and generate study artifacts while keeping the library on your machine.
 
@@ -32,14 +32,14 @@ The active embedding profile is stored with the library. Rebuilding an embedding
 
 ### Windows release
 
-Download the latest installer from the [Releases page](https://github.com/Qorq-byte/RAG_db_test/releases). The installer includes the application runtime but does not include model weights, Ollama, Tesseract, or API keys.
+Download the latest installer from the [Releases page](https://github.com/Qorq-byte/RAG-desktop/releases). The installer includes the application runtime but does not include model weights, Ollama, Tesseract, or API keys.
 
 ### Run from source
 
 Requirements are Python 3.11, [uv](https://docs.astral.sh/uv/), Git, and a supported model provider.
 
 ```powershell
-git clone https://github.com/Qorq-byte/RAG_db_test.git
+git clone https://github.com/Qorq-byte/RAG-desktop.git
 cd RAG_db_test
 uv sync --frozen
 Copy-Item config.example.toml config.toml
@@ -86,3 +86,4 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request. Co
 ## License
 
 RAGDB is released under the [MIT License](LICENSE).
+

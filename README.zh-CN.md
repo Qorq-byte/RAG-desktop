@@ -1,10 +1,10 @@
 # RAGDB
 
-[![Python 3.11](https://img.shields.io/badge/python-3.11-3776AB?logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3110/) [![PySide6](https://img.shields.io/badge/UI-PySide6-41CD52?logo=qt&logoColor=white)](https://doc.qt.io/qtforpython/) [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE) [![Latest release](https://img.shields.io/github/v/release/Qorq-byte/RAG_db_test?display_name=tag)](https://github.com/Qorq-byte/RAG_db_test/releases) [![Windows](https://img.shields.io/badge/platform-Windows%20x64-0078D6?logo=windows&logoColor=white)](https://github.com/Qorq-byte/RAG_db_test/releases)
+[![Python 3.11](https://img.shields.io/badge/python-3.11-3776AB?logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3110/) [![PySide6](https://img.shields.io/badge/UI-PySide6-41CD52?logo=qt&logoColor=white)](https://doc.qt.io/qtforpython/) [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE) [![Latest release](https://img.shields.io/github/v/release/Qorq-byte/RAG-desktop?display_name=tag)](https://github.com/Qorq-byte/RAG-desktop/releases) [![Windows](https://img.shields.io/badge/platform-Windows%20x64-0078D6?logo=windows&logoColor=white)](https://github.com/Qorq-byte/RAG-desktop/releases)
 
 **面向个人资料的本地优先桌面 RAG 知识库，支持导入、检索、引用和学习。**
 
-[English](README.md) · [使用指南](docs/user-guide.md) · [发布版本](https://github.com/Qorq-byte/RAG_db_test/releases) · [项目状态](task_plan.md)
+[English](README.md) · [使用指南](docs/user-guide.md) · [发布版本](https://github.com/Qorq-byte/RAG-desktop/releases) · [项目状态](task_plan.md)
 
 RAGDB 使用 Python 和 PySide6 构建，桌面端和 CLI 共用同一套核心服务。它可以导入本地文件、目录、网页和公开 GitHub 仓库，建立向量与关键词混合索引。你可以查看原文证据、提出带依据的问题，并生成学习内容，同时将知识库保存在本机。
 
@@ -32,14 +32,14 @@ RAGDB 使用 Python 和 PySide6 构建，桌面端和 CLI 共用同一套核心�
 
 ### Windows 安装版
 
-从 [Releases 页面](https://github.com/Qorq-byte/RAG_db_test/releases)下载最新版安装包。安装包包含程序运行环境，不包含模型权重、Ollama、Tesseract 或 API Key。
+从 [Releases 页面](https://github.com/Qorq-byte/RAG-desktop/releases)下载最新版安装包。安装包包含程序运行环境，不包含模型权重、Ollama、Tesseract 或 API Key。
 
 ### 从源码运行
 
 需要 Python 3.11、[uv](https://docs.astral.sh/uv/)、Git 和可用的模型服务。
 
 ```powershell
-git clone https://github.com/Qorq-byte/RAG_db_test.git
+git clone https://github.com/Qorq-byte/RAG-desktop.git
 cd RAG_db_test
 uv sync --frozen
 Copy-Item config.example.toml config.toml
@@ -86,3 +86,4 @@ uv run python -m compileall -q src tests
 ## 许可证
 
 RAGDB 使用 [MIT License](LICENSE) 发布。
+
